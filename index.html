@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Digital Analytics (UX Analysis)</title>
+    </head>
+    <body>
+        <link rel="stylesheet" href="style.css">
+        <h1>DIGITAL ANALYTICS</h1>
+            <h2>UX Analysis</h2>
+        <div class="graphic">
+
+    <h3>
+        <span>Homepage</span>
+        <span>Sign up</span>
+        <span>Shopping Cart</span>
+        <span>Product Sold</span>
+    </h3>
+
+    <hr>
+
+    <div class="gridv" style="left:0;">
+        <div class="percentage">
+            100%<br><br><br>
+            80%<br><br><br>
+            60%<br><br><br>
+            40%<br><br><br>
+            20%<br><br><br>
+            0%
+        </div>
+    </div>
+
+
+    <div class="gridv" style="left:25%;"></div>
+    <div class="gridv" style="left:50%;"></div>
+    <div class="gridv" style="left:75%;"></div>
+
+
+    <div class="value" onclick="aggiungiValore()">+</div>
+
+
+    <select id="menuTrend" onchange="gestisciMenu()">
+        <option value="">Seleziona...</option>
+        <option value="add">Aggiungi percentuale</option>
+        <option value="remove">Cancella ultimo movimento</option>
+        <option value="reset">Reset totale</option>
+    </select>
+
+
+    <svg class="trend" viewBox="0 0 1000 400"></svg>
+
+
+</div>
+        <script src="script.js"></script>
+    </body>
+</html>

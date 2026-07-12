@@ -1,0 +1,92 @@
+body {
+    background-color: whitesmoke;
+}
+
+.graphic {
+    background-color: rgb(192, 192, 192);
+    width: 80%;
+    height: 70%;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 10%;
+    border-radius: 10px;
+    position: absolute;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    display: flex;
+    margin: 25px;
+    gap: 20%;
+    text-align: center;
+}
+
+.gridv {
+    position:absolute;
+    top:75px;
+    bottom:20px;
+    border-left:2px solid black;
+}
+
+.percentage {
+    position: relative;
+    font-size: 20px;
+    color: black;
+    margin-left: -50px;
+}
+
+.trend {
+    position:absolute;
+    top:75px;
+    left: 10px;
+    width:calc(100% - 150px);
+    height:calc(100% - 95px);
+    pointer-events:none;
+}
+
+.value {
+    background-color: rgb(61, 61, 61);
+    text-align: center;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 45px;
+    border-radius: 100%;
+    margin-left: 95%;
+    margin-top: 30%;
+    cursor: pointer;
+}
+
+.gridh {
+    stroke: black;
+    stroke-width: 1px;
+    opacity: 0.3;
+    margin-left: 10px;
+}
+
+#menuTrend{
+    position:absolute;
+    right:20px;
+    bottom: 90px;
+    font-size:16px;
+    padding:5px;
+}
